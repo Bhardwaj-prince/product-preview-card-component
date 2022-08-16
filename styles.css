@@ -1,0 +1,58 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container-fluid {
+    padding: 10% 30%;
+}
+
+h5 {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Fraunces', serif;
+}
+
+.price-tag {
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    padding-right: 10px;
+}
+
+.button-class {
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+}
+
+i {
+    padding: 0 10px;
+}
+
+.product-image {
+    height: 350px;
+    width: 265px;
+}
+
+.price-off {
+    text-decoration: line-through;
+}
+
+@media screen and (max-width:375px) {
+    .container-fluid {
+        padding: 3%;
+    }
+    .product-image {
+        width: 100%;
+    }
+}
